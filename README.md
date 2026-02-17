@@ -87,4 +87,4 @@ docker run --rm -v .:/workspace c-compiler test.c
 
 ### Examine the compiler output
 
-The input to the compiler is in `test.c`. The compiler outputs x64 assembly language. The output is placed in `output.s`. It is then assembled and linked and the final output is in the file named `program`.
+The input to the compiler is in `test.c`. The compiler outputs x64 assembly language. The output is placed in `output.s`. It is then assembled and linked and the final native executable is placed in the file `program`.
