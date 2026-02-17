@@ -68,7 +68,7 @@ Claude wrote the compiler in one shot and it worked the first time!
 
 - You need a x64 computer.
 - I have only tested on a Windows box, but it should run on Linux and macOS as long as it is x64.
-- Docker. To avoid having to install TypeScript and GNU assembler/linker.
+- Docker. (I used Docker to avoid having to install TypeScript and GNU assembler/linker.)
 
 ## Build and run
 
