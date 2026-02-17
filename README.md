@@ -1,5 +1,6 @@
-# c-compiler
-A C compiler written in TypeScript
+# A C compiler in TypeScript, Written by Claude
+
+To understand what AI is capable of today (February 2026), I asked Claude (Opus 4.5) to write a C compiler in TypeScript. I was expecting a week-long project with lots of human intervention. To my surprise, Claude did it in about a minute, and it worked on the first try!
 
 ## Prompt given to Claude
 
