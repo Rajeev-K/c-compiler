@@ -70,7 +70,7 @@ Claude wrote the compiler in one shot and it worked the first time!
 - I have only tested on a Windows box, but it should run on Linux and macOS as long as it is x64.
 - Docker. (I used Docker to avoid having to install TypeScript and GNU assembler/linker.)
 
-## Build and run
+### Build and run
 
 To build (run this command in project folder):
 
@@ -84,6 +84,6 @@ To run  (run this command in project folder):
 docker run --rm -v .:/workspace c-compiler test.c
 ```
 
-## Examine the compiler output
+### Examine the compiler output
 
 The compiler outputs x64 assembly language. The output is placed in `output.s`. It is then assembled and linked and the final output is in the file named `program`.
