@@ -83,3 +83,7 @@ To run  (run this command in project folder):
 ```
 docker run --rm -v .:/workspace c-compiler test.c
 ```
+
+## Examine the compiler output
+
+The compiler outputs x64 assembly language. The output is placed in `output.s`. It is then assembled and linked and the final output is in the file named `program`.
