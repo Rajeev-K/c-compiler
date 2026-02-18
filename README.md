@@ -2,7 +2,7 @@
 
 To understand what AI is capable of today (February 2026), I asked Claude (Opus 4.5) to write a C compiler in TypeScript. I was expecting a week-long project with lots of human intervention. To my surprise, Claude did it in about a minute, and it worked on the first try!
 
-This project is useful for learning how compilers work and for exploring x86-64 assembly language. The compiler, under 1500 lines of easy-to-understand code, can yet compile array sorting and binary search routines!
+This project is a great way to learn how compilers work and explore x86-64 assembly language. Despite being under 1,500 lines of straightforward, readable code, the compiler is capable enough to handle array sorting and binary search routines.
 
 ## Prompt given to Claude
 
@@ -69,7 +69,7 @@ Claude wrote the compiler in one shot and it worked the first time!
 
 ### System requirements
 
-- You need a x64 computer.
+- You need a x64 machine because the compiler produces x64 code.
 - I have only tested on a Windows box, but it should run on Linux and macOS as long as it is x64.
 - Docker. (I used Docker to avoid having to install TypeScript and GNU assembler/linker.)
 
