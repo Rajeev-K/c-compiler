@@ -2,6 +2,8 @@
 
 To understand what AI is capable of today (February 2026), I asked Claude (Opus 4.5) to write a C compiler in TypeScript. I was expecting a week-long project with lots of human intervention. To my surprise, Claude did it in about a minute, and it worked on the first try!
 
+This project is useful for learning how compilers work and for exploring x86-64 assembly language. The compiler, under 1500 lines of easy-to-understand code, can yet compile array sorting and binary search routines!
+
 ## Prompt given to Claude
 
 ```
@@ -87,4 +89,4 @@ docker run --rm -v .:/workspace c-compiler test.c
 
 ### Examine the compiler output
 
-The input to the compiler is in `test.c`. The compiler outputs x64 assembly language. The output is placed in `output.s`. It is then assembled and linked and the final native executable is placed in the file `program`.
+The input to the compiler is in `test.c`. The compiler outputs x64 assembly language. The output is placed in `output.s`. It is then assembled and linked and the final native executable is placed in the file `program`. The executable is then run and the output is displayed on the screen.
